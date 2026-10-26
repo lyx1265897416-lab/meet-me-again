@@ -63,8 +63,7 @@ export class DramaScore{
       const previous=this.current;this.current=voice;this.resync=false;this.ramp(voice,this.level(),1.1);
       this.report('playing');
       if(previous){this.ramp(previous,0,1.1);try{previous.source.stop(this.context.currentTime+1.15);}catch{}}
-      // Warm the other themes without interrupting video loading.
-      for(const next of ['daylight','close','memory','again'])if(next!==name)this.buffer(next).catch(()=>{});
+      // Other themes load on first use only: warming all four (~8 MB) starved video on slow links.
     }catch(e){this.report('unavailable');console.warn('Background music could not load:',name,e.message);}
   }
   pause(){this.token++;this.stopped=true;if(this.context)this.context.suspend().catch(()=>{});this.report('paused');}
