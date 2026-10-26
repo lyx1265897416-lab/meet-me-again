@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>今天，再喜欢我一次 · Meet Me, Again</title><link rel="stylesheet" href="style.css"><body><main id="stage">
+<video id="filmA" playsinline preload="auto"></video><video id="filmB" playsinline preload="auto" hidden></video>
+<header><span>MEET ME, AGAIN</span><button id="chapters" aria-label="选择集数">01 / 08 ▾</button><button id="language" hidden>EN</button></header>
+<div id="cover"><p class="eyebrow">AN INTERACTIVE LOVE STORY</p><h1>今天，<br>再喜欢我一次。</h1><p id="tagline">一个陌生人，一扇院门。<br>今天的故事，从你的回应开始。</p><button id="start">开始故事</button><small id="availability"></small></div>
+<div id="busy" hidden aria-live="polite"></div><div id="toast" hidden></div><div id="subtitles" aria-live="off"><div id="zh"></div><div id="en"></div></div><div id="prop" hidden></div><div id="sceneBridge" hidden aria-live="off"></div>
+<section id="decision" hidden><p></p><div id="spots"></div><div id="options"></div></section>
+<footer hidden><div class="transport"><button id="toggle" aria-label="暂停">Ⅱ</button><span id="time">0:00 / 0:00</span><button id="speed">1×</button></div><input id="seek" type="range" min="0" max="1000" value="0" aria-label="整集播放进度"><p id="episodeLabel"></p></footer>
+<dialog id="chapterDialog"><button class="close">×</button><h2>剧集</h2><div id="episodeList"></div></dialog>
+<dialog id="speedDialog"><button class="close">×</button><h2>播放速度</h2><div id="speeds"></div></dialog>
+<section id="ending" hidden><span id="endSmall"></span><h2 id="endTitle"></h2><button id="nextEpisode"></button><button id="replay">重新体验本集</button></section>
+</main><script type="module" src="player.mjs"></script></body></html>

@@ -1,0 +1,850 @@
+{
+  "01-02": {
+    "Put it down.": "放下。",
+    "This? Your toes might have a problem with that.": "这个？放了可真要砸脚。",
+    "The sign. Put it down, and take a step back.": "我是说，放下招牌，后退一点。",
+    "This?": "这个？",
+    "Your toes might have a problem with that.": "放了可真要砸脚。"
+  },
+  "01-03": {
+    "Okay. Just so we're clear, I'm not waterproof.": "好。先声明，我不耐浇。",
+    "Okay.": "好。",
+    "Just so we're clear, I'm not waterproof.": "先声明，我不耐浇。",
+    "Okay. Just so we are clear, I am not waterproof.": "好吧。先说清楚，我可不防水。"
+  },
+  "01-04": {
+    "I'm Rowan. Here to fix the sign.": "我是洛温。来修招牌的。",
+    "You don't look like someone I hired.": "你看着不像我叫来的。",
+    "Bad introduction. Want me to start over?": "那我介绍得不够好。需要重来吗？",
+    "I'm Rowan.": "我是洛温。",
+    "Here to fix the sign.": "来修招牌的。",
+    "Bad introduction.": "那我介绍得不够好。",
+    "Want me to start over?": "需要重来吗？"
+  },
+  "01-A1": {
+    "Open it.": "打开看看。",
+    "Screwdriver, measuring tape, three screws that keep disappearing. A highly organized professional.": "螺丝刀，卷尺，三颗总会失踪的螺丝。非常有组织的修理工。",
+    "Screwdriver, measuring tape, three screws that keep disappearing.": "螺丝刀，卷尺，三颗总会失踪的螺丝。",
+    "A highly organized professional.": "非常有组织的修理工。"
+  },
+  "01-A2": {
+    "Where's the third one?": "第三颗呢？",
+    "Team's all here.": "团队到齐了。"
+  },
+  "01-B1": {
+    "Explain from right there.": "就在那儿说。",
+    "Okay. My office just got very small.": "好。我的办公区现在很小。",
+    "Why are you fixing my sign?": "为什么来修我的招牌？",
+    "Nora asked me to finish up. Is she inside? You can check.": "诺拉托我来收尾。她在里面吗？可以叫她出来。",
+    "Okay.": "好。",
+    "My office just got very small.": "我的办公区现在很小。",
+    "Nora asked me to finish up.": "诺拉托我来收尾。",
+    "Is she inside?": "她在里面吗？",
+    "You can check.": "可以叫她出来。"
+  },
+  "01-B2": {
+    "Fix the sign, then. Stay out of the house.": "那你先修这个。别进屋。",
+    "Understood.": "收到。",
+    "Fix the sign, then.": "那你先修这个。",
+    "Stay out of the house.": "别进屋。"
+  },
+  "01-C1": {
+    "Nora? Do you know this guy?": "诺拉，你认识这个人吗？",
+    "Yes, he's fixing the greenhouse. Breakfast is waiting. Come in when you're done.": "认识，修温室的。早餐给你留着，忙完进来。",
+    "I was hoping for a letter of recommendation.": "我还以为会有推荐信。",
+    "His work's better than his jokes.": "他干活比他说话靠谱。",
+    "Five-star review.": "五星评价。"
+  },
+  "01-05-confirm": {
+    "I asked him to finish the repairs. He can leave his tools in the courtyard.": "是我叫他来收尾的，工具可以让他放院里。"
+  },
+  "01-06": {
+    "At least it saved your name before it fell.": "至少它落下来之前，还保住了你的名字。",
+    "We still need a No Trespassing sign.": "门口还缺一块“禁止擅入”。",
+    "Add: Please don't water the repairman.": "顺便加一行，“请勿给修理工浇水”。",
+    "We'll see how you do.": "看表现。"
+  },
+  "02-01": {
+    "I'm opening the bakery next door. Phone's with me. Call if you need anything.": "我去隔壁开门，手机在身边。有事叫我。"
+  },
+  "02-03": {
+    "Something you wanted to say?": "想说什么？",
+    "Does that coffee include my wages?": "想问这杯咖啡有没有加我的工钱。",
+    "Your work hasn't passed inspection.": "你还没验收。",
+    "Tough, but fair.": "严格，但公平。"
+  },
+  "02-05": {
+    "You have to undress to fix a window?": "修窗还要脱衣服？",
+    "Not the window. Trying to be useful requires moving my arms.": "修窗不用。想表现得有用一点，需要活动胳膊。",
+    "This part's free. Don't pay extra just because I rolled up my sleeves.": "这部分免费。别因为我卷了袖子就加钱。",
+    "Not the window.": "修窗不用。",
+    "Trying to be useful requires moving my arms.": "想表现得有用一点，需要活动胳膊。",
+    "This part's free.": "这部分免费。",
+    "Don't pay extra just because I rolled up my sleeves.": "别因为我卷了袖子就加钱。"
+  },
+  "02-06": {
+    "I was about to charge you for talking.": "我正想扣你说话的钱。",
+    "Getting to work.": "那我马上开工。",
+    "Can this one be saved?": "这个还有救吗？",
+    "Yes. It's just drowning.": "有。它只是被水泡得喘不过气。",
+    "We have a lot in common.": "我们情况挺像。",
+    "It's quieter.": "它比你安静。",
+    "Competitive advantage. I respect that.": "竞争优势。我很尊重。",
+    "Yes.": "有。",
+    "It's just drowning.": "它只是被水泡得喘不过气。",
+    "Competitive advantage.": "竞争优势。",
+    "I respect that.": "我很尊重。"
+  },
+  "02-A1": {
+    "This one's yours. No water yet.": "这个给你。先别浇水。",
+    "Entrusting me with a life already?": "这就托付生命了？",
+    "It's a plant.": "一盆植物。",
+    "I know. My résumé isn't good enough for a dog yet.": "我知道。我的履历还没好到能直接领狗。",
+    "This one's yours.": "这个给你。",
+    "No water yet.": "先别浇水。",
+    "I know.": "我知道。",
+    "My résumé isn't good enough for a dog yet.": "我的履历还没好到能直接领狗。"
+  },
+  "02-B1": {
+    "Mint. Good for tea.": "薄荷，能泡茶。",
+    "Finally, a coworker handling refreshments.": "终于有同事负责下午茶了。",
+    "Keep it alive first.": "你得先养活它。",
+    "Hear that? Promotion standards are brutal.": "听见了吗？我们的升职条件很苛刻。",
+    "Hear that?": "听见了吗？",
+    "Promotion standards are brutal.": "我们的升职条件很苛刻。"
+  },
+  "02-C1": {
+    "This one's hard to kill.": "这个不容易养死。",
+    "Thanks. Your confidence in me has spikes.": "谢谢。你对我的信任很有刺。",
+    "Thanks.": "谢谢。",
+    "Your confidence in me has spikes.": "你对我的信任很有刺。"
+  },
+  "02-08": {
+    "How did you know where the pen was?": "你怎么知道笔在哪儿？",
+    "You—": "你——"
+  },
+  "02-09": {
+    "Maisie, did you read the notebook by your breakfast this morning?": "麦溪，你今天早上看过桌边那个本子吗？",
+    "What notebook?": "哪个本子？"
+  },
+  "02-10": {
+    "I think we should sit down.": "我想我们应该先坐一会儿。",
+    "Have we met before?": "我们以前见过？",
+    "Yes.": "见过。"
+  },
+  "03-01": {
+    "When?": "什么时候？",
+    "These past few days. I've been repairing this place.": "最近这些天。我一直在修这里。",
+    "I don't remember.": "我不记得。",
+    "I know. I thought Nora had gone through your notes with you. I should have asked.": "我知道。刚才我以为诺拉已经陪你看过记录了。我应该先问。",
+    "Don't explain for me. Call her.": "你先别替我解释。叫她过来。",
+    "These past few days.": "最近这些天。",
+    "I've been repairing this place.": "我一直在修这里。",
+    "I know.": "我知道。",
+    "I thought Nora had gone through your notes with you.": "刚才我以为诺拉已经陪你看过记录了。",
+    "I should have asked.": "我应该先问。",
+    "Don't explain for me.": "你先别替我解释。",
+    "Call her.": "叫她过来。"
+  },
+  "03-02": {
+    "Maisie, you went straight out to the fallen sign this morning. I put your notebook beside breakfast. I thought you'd read it first, like usual. I didn't check.": "麦溪，早上你先去看掉下来的招牌了。我把本子放在早餐盘旁边，以为你会像平常一样先看。是我没跟上。"
+  },
+  "03-03": {
+    "What notes?": "什么记录？",
+    "You had an accident. You remember your life before it. But new memories don't stay after a night's sleep.": "你出过一场事故。你记得以前的生活，但新发生的事，睡过一夜就留不住。",
+    "I remember right now. The sign, the coffee, his terrible joke.": "我现在不是记得吗？招牌，咖啡，还有他那个很差的笑话。",
+    "Today, you do. We're talking about tomorrow morning.": "今天的事，你现在能记得。我们说的是明天早上。",
+    "I remember right now.": "我现在不是记得吗？",
+    "The sign, the coffee, his terrible joke.": "招牌，咖啡，还有他那个很差的笑话。",
+    "Today, you do.": "今天的事，你现在能记得。",
+    "We're talking about tomorrow morning.": "我们说的是明天早上。"
+  },
+  "03-A1": {
+    "Maisie, this is your notebook. Check today's date, then the latest page. Nora's next door if you need her.": "麦溪，这是你的本子。先看今天日期，再看最新一页。想找人问，诺拉就在隔壁。",
+    "He put a label on upside down. I laughed and spilled my coffee.": "他把标签贴反了。我笑得咖啡都洒了。",
+    "Didn't feel like talking today. He finished the repairs and left. Didn't push.": "今天不想聊天。他修完就走，没有追问。",
+    "That handwriting… it's mine.": "这字……真的是我的。",
+    "Maisie, this is your notebook.": "麦溪，这是你的本子。",
+    "Check today's date, then the latest page.": "先看今天日期，再看最新一页。",
+    "Nora's next door if you need her.": "想找人问，诺拉就在隔壁。",
+    "He put a label on upside down.": "他把标签贴反了。",
+    "I laughed and spilled my coffee.": "我笑得咖啡都洒了。"
+  },
+  "03-B1": {
+    "Hey. It's me. You're probably tired of this opening. Since the accident, we wake up without the new memories. The notebook tells you where the hospital papers are, and what's happened lately.": "嘿，是我。你可能已经烦这个开场了。事故之后，我们每天醒来都会忘记新发生的事。本子里有医院资料的位置，也有这几天的事。",
+    "Eat something first. You don't have to read everything at once.": "先吃点东西。不要一次读完全部。",
+    "Also, that Rowan guy is kind of annoying. Admit it if he makes you laugh. If he doesn't, you owe him nothing.": "还有，那个洛温确实有点烦。你笑了再承认，没笑不用给面子。",
+    "Eat something first.": "先吃点东西。",
+    "You don't have to read everything at once.": "不要一次读完全部。",
+    "Hey.": "嗨。",
+    "It's me.": "是我自己。",
+    "You're probably tired of this opening.": "这个开场，你大概已经听烦了。",
+    "Since the accident, we wake up without the new memories.": "那场事故以后，每次睡醒，我们都会失去新形成的记忆。",
+    "The notebook tells you where the hospital papers are, and what's happened lately.": "本子里记了医院资料放在哪里，还有最近发生的事情。"
+  },
+  "03-C1": {
+    "So this isn't some joke you two are playing.": "所以不是你们两个在跟我开玩笑。",
+    "No. You can call your doctor, or anyone you want. We'll help you check.": "不是。你可以联系医生，也可以问你想问的任何人。我们陪你核对。",
+    "No.": "不是。",
+    "You can call your doctor, or anyone you want.": "你可以联系医生，也可以问你想问的任何人。",
+    "We'll help you check.": "我们陪你核对。"
+  },
+  "03-05": {
+    "How many times have you seen me?": "你见过我多少次？",
+    "Today's twelve.": "今天第十二次。",
+    "Do I chase you off with a watering can every day?": "我每天都拿喷壶赶你？",
+    "No. That one's new.": "没有。那个是今天的新项目。",
+    "No.": "没有。",
+    "That one's new.": "那个是今天的新项目。",
+    "Once a day. Almost three months now.": "每天来一次。快到三个月了。"
+  },
+  "03-06": {
+    "I didn't even know the date. And you were letting me pick flowers.": "我连今天是几号都不知道，你们刚才还在让我挑花。",
+    "I'm sorry. I saw you working and assumed you knew. I guessed. I didn't ask.": "对不起。我看见你出来做事，就以为你已经知道了。那是我猜的，没问你。",
+    "Go outside for a while.": "你出去一会儿。",
+    "Okay.": "好。"
+  },
+  "03-08": {
+    "That crossed-out letter. I always fix it like that. This is mine.": "那一笔划错又补上的字，我总是这样改。真的是我写的。"
+  },
+  "04-01": {
+    "Do I have to find this out every day?": "我是不是每天都得知道一次这种事？",
+    "Some mornings you read a few lines. Sometimes you ask a lot. No two days are the same.": "有的早晨你只看几行，有的时候会问很多。不是每天都一样。",
+    "Then put those few lines somewhere I'll see them. Don't make me guess.": "那以后把几行放到我一定会看的地方。别让我自己猜。",
+    "Then put those few lines somewhere I'll see them.": "那以后把几行放到我一定会看的地方。",
+    "Don't make me guess.": "别让我自己猜。",
+    "Some mornings you read a few lines.": "有的早晨你只看几行。",
+    "Sometimes you ask a lot.": "有的时候会问很多。",
+    "No two days are the same.": "不是每天都一样。"
+  },
+  "04-02": {
+    "He hasn't left?": "他没走？",
+    "He said he'd gather his things, then go. I can call him over if you want. If not, we're done for today.": "他说东西拿齐就走。你想叫他，我帮你；不想，今天就到这里。",
+    "I get up and walk to the open doorway.": "我站起来，走到敞开的门口。"
+  },
+  "04-03": {
+    "Do you come here hoping for the same result every day?": "你每天来，都想得到同一个结果吗？",
+    "At first, I really came to fix things.": "来修东西，一开始真是这个。",
+    "And then?": "后来呢？",
+    "Then I hoped you'd want to talk a little longer.": "后来我希望你愿意多跟我说两句。"
+  },
+  "04-A1": {
+    "Do you already know every line that'll make me laugh?": "你是不是已经知道所有能逗笑我的话？",
+    "A few. Some worked once, then didn't.": "知道几句。也有原来管用，后来不管用的。",
+    "You memorized the answers?": "你还背过答案？",
+    "Yeah. Afraid I'd get it wrong.": "嗯。怕说错。",
+    "Sounds like a test.": "听着像考试。",
+    "Then I failed today. When you were upset, I kept searching for a line to fix it. I should have shut up and listened.": "所以今天考砸了。你生气的时候，我还想找一句能把气氛拉回去。我该闭嘴听完。",
+    "A few.": "知道几句。",
+    "Some worked once, then didn't.": "也有原来管用，后来不管用的。",
+    "Yeah.": "嗯。",
+    "Afraid I'd get it wrong.": "怕说错。",
+    "Then I failed today.": "所以今天考砸了。",
+    "When you were upset, I kept searching for a line to fix it.": "你生气的时候，我还想找一句能把气氛拉回去。",
+    "I should have shut up and listened.": "我该闭嘴听完。"
+  },
+  "04-B1": {
+    "What exactly were we?": "我们之前到底是什么关系？",
+    "I like you. Some days, you wanted coffee with me. Other days, just the repairs. We never agreed we were a couple.": "我喜欢你。你有几天愿意和我喝咖啡，有几天只想让我干活。我们没有确定恋爱关系。",
+    "Don't fill that part in for me.": "那你别替我把它补上。",
+    "I won't. I want to ask. But the answer is yours.": "不会。我想问，但要你自己回答。"
+  },
+  "04-C1": {
+    "What if I don't like you tomorrow?": "如果明天我又不喜欢你呢？",
+    "I'll be sad. Probably go home and swear at that unlucky window latch.": "会难过。可能回家骂两句那个倒霉窗闩。",
+    "What did the latch do?": "窗闩做错什么了？",
+    "Nothing. It can't argue back.": "没什么。它没法反驳我。",
+    "If you don't want to see me tomorrow, we don't meet. Liking you shouldn't make you afraid to close your own door.": "明天不想见我，就不见。喜欢你这件事，不该让你连门都不敢关。",
+    "I'll be sad.": "会难过。",
+    "Probably go home and swear at that unlucky window latch.": "可能回家骂两句那个倒霉窗闩。",
+    "Nothing.": "没什么。",
+    "It can't argue back.": "它没法反驳我。",
+    "If you don't want to see me tomorrow, we don't meet.": "明天不想见我，就不见。",
+    "Liking you shouldn't make you afraid to close your own door.": "喜欢你这件事，不该让你连门都不敢关。"
+  },
+  "04-04": {
+    "Tomorrow, check that I know first. No guessing.": "明天你来的时候，先确认我知道了。别再猜。",
+    "I'll ask.": "好。我先问。",
+    "And no 'you liked this yesterday.' I might not today.": "也别跟我说“你昨天喜欢”。我今天可能不喜欢。",
+    "I'll have to stay flexible.": "那我得准备得灵活一点。",
+    "That doesn't mean writing a new answer sheet.": "不是让你写新的标准答案。",
+    "Got it. Bring a brain. Leave the script.": "明白。带上脑子，别带剧本。",
+    "Tomorrow, check that I know first.": "明天你来的时候，先确认我知道了。",
+    "No guessing.": "别再猜。"
+  },
+  "04-04-facts": {
+    "We never agreed we were a couple. Yesterday's notes aren't an answer from you today. I should have checked first.": "我们没有确定恋爱关系。昨天的记录不是你今天的同意。我应该先确认。",
+    "We never agreed we were a couple.": "我们没有确定恋爱关系。",
+    "Yesterday's notes aren't an answer from you today.": "昨天的记录不是你今天的同意。",
+    "I should have checked first.": "我应该先确认。"
+  },
+  "04-A2": {
+    "Come sit for a minute.": "进来坐一会儿吧。",
+    "The chair just made a better point than I did.": "它刚才说得比我好。",
+    "You could be a little quieter.": "你确实可以安静一点。",
+    "Tomorrow, after breakfast.": "明天，早饭以后。"
+  },
+  "04-B2": {
+    "Tomorrow. After breakfast.": "明天，早饭以后。",
+    "Okay. Can I take this?": "好。这个能带走吗？",
+    "Come back alive.": "活着来见我。",
+    "We'll both do our best.": "我们两个都会努力。",
+    "Okay.": "好。",
+    "Can I take this?": "这个能带走吗？"
+  },
+  "04-05": {
+    "Finding out today hurt. Rowan didn't get everything right. But he listened until I was finished. I asked him to come tomorrow.": "今天知道真相，很难受。洛温没有做得全对，但他听我说完了。我约了他明天。",
+    "Later that evening, back at the table, I wrote: Finding out today hurt. Rowan didn't get everything right. But he listened until I was finished. I asked him to come tomorrow.": "那天晚上，我回到桌前写下：今天知道这些时很难受。洛温并不是什么都做对了，但他一直听到我说完。我约他明天再来。",
+    "Later that evening, back at the table, I wrote:": "那天晚上，我回到桌前写下：",
+    "Finding out today hurt.": "今天知道这些时很难受。",
+    "Rowan didn't get everything right.": "洛温并不是什么都做对了，",
+    "But he listened until I was finished.": "但他一直听到我说完。",
+    "I asked him to come tomorrow.": "我约他明天再来。"
+  },
+  "05-02": {
+    "Read your few lines today?": "今天那几行看过了吗？",
+    "After breakfast. That's what we agreed.": "早饭以后。我们约好的。",
+    "Morning. I'm Rowan. This is my probationary coworker.": "早。我是洛温。这位是试用期同事。",
+    "It's only been one day.": "才一天？",
+    "Early-stage company. Don't focus on scale.": "创业初期，别盯着规模看。",
+    "After breakfast.": "早饭以后。",
+    "That's what we agreed.": "我们约好的。",
+    "Morning.": "早。",
+    "I'm Rowan.": "我是洛温。",
+    "This is my probationary coworker.": "这位是试用期同事。"
+  },
+  "05-03": {
+    "Is that the sea, or your coworker after it dies?": "这是海，还是你同事去世后的形状？",
+    "I charge for repairs. My art is currently losing money.": "我修东西收费，画画目前赔钱。"
+  },
+  "05-A1": {
+    "What would you like today?": "今天想喝什么？",
+    "Tea.": "茶。",
+    "Great. The coffee shop just lost a very promising relationship.": "很好。咖啡店失去了一段本来很有前景的关系。",
+    "You can still have coffee.": "你可以自己喝。",
+    "True. Amicable breakup.": "也行。我们和平分手。",
+    "Great.": "很好。",
+    "The coffee shop just lost a very promising relationship.": "咖啡店失去了一段本来很有前景的关系。",
+    "True.": "也行。",
+    "Amicable breakup.": "我们和平分手。"
+  },
+  "05-A2": {
+    "You'd think orchids want constant attention. They mostly want you to stop fussing.": "你以为兰花需要时刻照顾，其实它们大多想让你别再操心。",
+    "I'm taking that advice personally.": "这建议，我觉得是在说我。"
+  },
+  "05-B1": {
+    "I want the actual sea.": "我要去真的海边。",
+    "Guaranteed water. Wetter than the drawing.": "保证有水，比我画得湿。"
+  },
+  "05-B2": {
+    "Nice hair.": "发型不错。",
+    "Limited edition. No photographs, please.": "限时款。看完别传出去。",
+    "Limited edition.": "限时款。",
+    "No photographs, please.": "看完别传出去。"
+  },
+  "05-C1": {
+    "Help me organize the greenhouse. These labels need finishing before we open.": "陪我整理温室吧。开门营业前，这些标签得弄完。",
+    "A date at your workplace. You negotiate benefits well.": "约会地点是工作单位。你谈福利很有一套。",
+    "Don't come, then.": "不来算了。",
+    "Didn't say that. Does the employee get to pick afternoon tea?": "没说不来。员工能选下午茶吗？",
+    "Help me organize the greenhouse.": "陪我整理温室吧。",
+    "These labels need finishing before we open.": "开门营业前，这些标签得弄完。",
+    "A date at your workplace.": "约会地点是工作单位。",
+    "You negotiate benefits well.": "你谈福利很有一套。",
+    "Didn't say that.": "没说不来。",
+    "Does the employee get to pick afternoon tea?": "员工能选下午茶吗？"
+  },
+  "05-04": {
+    "There's one more thing I'd like today.": "今天还想争取一件事。",
+    "Didn't you already get a plant?": "你不是已经拿走一盆花了？",
+    "A plant won't do for this.": "这个不能用花代替。"
+  },
+  "05-D1": {
+    "Taking a handshake seriously?": "握手这么认真？",
+    "The handshake's over. This is me not wanting to let go.": "握手已经结束了。现在是舍不得放。",
+    "The handshake's over.": "握手已经结束了。",
+    "This is me not wanting to let go.": "现在是舍不得放。"
+  },
+  "05-E1": {
+    "Free sample?": "试用装？",
+    "Checking the feel first.": "先看看手感。",
+    "Then I'd better make a good impression.": "那我表现好一点。"
+  },
+  "05-F1": {
+    "If you want to hold my hand, say it.": "想牵手就说想牵手。",
+    "I want to hold your hand.": "想牵你的手。",
+    "Heard. I'll take the words today.": "听见了，今天先收下这句话。",
+    "Fair. Finally, I can stop pretending my hand's cold.": "也行。终于不用假装手冷了。",
+    "Fair.": "也行。",
+    "Finally, I can stop pretending my hand's cold.": "终于不用假装手冷了。"
+  },
+  "05-05": {
+    "Another interview tomorrow?": "明天还有面试吗？",
+    "Yes. Leave drawing off your résumé.": "有。简历别写会画画。",
+    "That leaves honesty.": "那我只剩诚实了。",
+    "Yes.": "有。",
+    "Leave drawing off your résumé.": "简历别写会画画。"
+  },
+  "05-08": {
+    "Blank label today. Your plan first.": "今天是空标签，先听你安排。",
+    "I want to reopen. Sell flowers. Not sit here checking what I've forgotten.": "我想重新开门。真的卖花，不是每天坐这里检查自己忘了什么。",
+    "What do you need me to do?": "需要我做哪部分？",
+    "Lift heavy things. And don't correct my prices.": "搬重东西。闭嘴别纠正我的定价。",
+    "Second part's a challenge. I'll try.": "后半项有难度，我尽力。",
+    "Lift heavy things.": "搬重东西。",
+    "And don't correct my prices.": "闭嘴别纠正我的定价。"
+  },
+  "05-09": {
+    "When do you open?": "什么时候开门？",
+    "Saturday, at ten. I'd love to see you.": "周六，十点。欢迎你来。",
+    "Saturday, at ten.": "周六，十点。",
+    "I'd love to see you.": "欢迎你来。"
+  },
+  "05-10": {
+    "Good news. Found the leak.": "好消息，我把漏水点找到了。",
+    "Bad news?": "坏消息呢？",
+    "It found me.": "它也找到我了。"
+  },
+  "05-11": {
+    "Easy. There's another shirt under this one.": "别急，里面还有一件。",
+    "Who's getting excited?": "谁急了？",
+    "Me. I'm hoping for a towel.": "我。正等你给条毛巾。",
+    "Me.": "我。",
+    "I'm hoping for a towel.": "正等你给条毛巾。"
+  },
+  "05-G1": {
+    "You had plenty to say a minute ago.": "刚才不是挺会说？",
+    "You got close all of a sudden. I need to reorganize my thoughts.": "你突然靠这么近，我得重新组织一下。"
+  },
+  "05-H1": {
+    "Expanding the inspection?": "验收范围扩大了？",
+    "Checking for slacking.": "看看有没有偷懒。",
+    "Reporting in. Worked very hard today.": "报告，今天很卖力。"
+  },
+  "05-J1": {
+    "Here. Next time you want me to look at you, just ask.": "拿好。下次想让我看你，可以直接说。",
+    "Then look at me now.": "那现在看我。",
+    "Okay. More effective than planned.": "好，比我计划的有效。",
+    "Here.": "拿好。",
+    "Next time you want me to look at you, just ask.": "下次想让我看你，可以直接说。"
+  },
+  "05-K1": {
+    "So, were you looking for a towel, or looking at me?": "所以，刚才到底是在找毛巾，还是在看我？",
+    "Ask again and I'll bite.": "再问，小心我咬你。",
+    "Gently. Still have to move your shelves tomorrow.": "轻点。明天还得给你搬花架。",
+    "Gently.": "轻点。",
+    "Still have to move your shelves tomorrow.": "明天还得给你搬花架。"
+  },
+  "05-K3": {
+    "Okay, message received. You weren't kidding.": "好，收到。原来你不是说着玩的。",
+    "Still asking?": "还问吗？",
+    "Nope. For now, you were looking for the towel.": "不问了。我暂时决定，你是在找毛巾。",
+    "But next time you want to get closer, you can skip the warning.": "不过，下次你想靠近，可以跳过警告。",
+    "You really can't stay quiet.": "你这个人，真的很难安静。",
+    "Back to work.": "我去干活。",
+    "Okay, message received.": "好，收到。",
+    "You weren't kidding.": "原来你不是说着玩的。",
+    "Nope.": "不问了。",
+    "For now, you were looking for the towel.": "我暂时决定，你是在找毛巾。"
+  },
+  "06-A0": {
+    "I wrote this down too?": "这个也被我写进去了？",
+    "Yesterday's most persuasive feedback.": "嗯，昨天最有说服力的一条反馈。",
+    "Watch your wording today, then.": "那你今天注意措辞。",
+    "Already working on it.": "已经在努力了。"
+  },
+  "06-02": {
+    "Thought we could use this on opening day. Let's test it.": "开门那天可以用这个，先试试声音。",
+    "Boss. Break time. May I have this dance?": "老板，工间休息。给我一支舞？"
+  },
+  "06-A1": {
+    "Does your lesson include feet?": "你这个教学包不含脚吗？",
+    "Included. No extra charge if you break them.": "包含。踩坏了也不另收费。",
+    "Included.": "包含。",
+    "No extra charge if you break them.": "踩坏了也不另收费。"
+  },
+  "06-A2": {
+    "A little closer?": "要不要再近一点？",
+    "Okay.": "好。"
+  },
+  "06-B1": {
+    "Product demonstration first.": "我先验货。",
+    "Limited engagement. No refunds.": "限量演出。谢绝退款。",
+    "Come sit here.": "过来坐吧。",
+    "Limited engagement.": "限量演出。",
+    "No refunds.": "谢绝退款。"
+  },
+  "06-C1": {
+    "Don't feel like dancing today.": "今天不想跳。",
+    "Okay. My dancing shoes get a reprieve.": "好。我的舞鞋获得缓刑。",
+    "Okay.": "好。",
+    "My dancing shoes get a reprieve.": "我的舞鞋获得缓刑。"
+  },
+  "06-D1": {
+    "Two steps and you're this tired?": "才跳两步，你就这么累？",
+    "Yep. Absolutely an exercise issue.": "嗯。绝对是运动量的问题。",
+    "Okay. It has very little to do with dancing.": "好吧，跟跳舞没什么关系。",
+    "Yep.": "嗯。",
+    "Absolutely an exercise issue.": "绝对是运动量的问题。"
+  },
+  "06-E1": {
+    "Ticklish here?": "这里怕痒？",
+    "A little. You look very happy about discovering that.": "有一点。你看起来很高兴发现这个。",
+    "Now I can make you quiet.": "以后有办法让你安静了。",
+    "You can just come closer. Much less trouble.": "你可以直接靠近，不用那么麻烦。",
+    "A little.": "有一点。",
+    "You look very happy about discovering that.": "你看起来很高兴发现这个。"
+  },
+  "06-F1": {
+    "Forget the steps. Just stay here.": "舞步可以忘，站这里就行。",
+    "You're cutting corners on this lesson.": "你这课偷工减料。",
+    "I admit it. This part's mostly me wanting to hold you.": "我承认，这部分主要是我想抱你。"
+  },
+  "06-03": {
+    "This one's noisy. Let's change it.": "这首有点吵。换一首吧。",
+    "But you loved this one yesterday.": "可是昨天你很喜欢这首。",
+    "So I have to like it today?": "所以我今天得喜欢吗？",
+    "No. I meant—": "不用。我是想——",
+    "You want yesterday again?": "想把昨天再做一次？",
+    "This one's noisy.": "这首有点吵。",
+    "Let's change it.": "换一首吧。",
+    "No.": "不用。",
+    "I meant—": "我是想——"
+  },
+  "06-04": {
+    "You looked so happy yesterday. I wanted to see that again.": "昨天你笑得很开心。我想再看到。",
+    "Did you see me today? I just said I didn't like it.": "那你看见今天的我没有？我刚刚说我不喜欢。",
+    "I see you. I'm sorry.": "看见了。对不起。",
+    "You looked so happy yesterday.": "昨天你笑得很开心。",
+    "I wanted to see that again.": "我想再看到。",
+    "Did you see me today?": "那你看见今天的我没有？",
+    "I just said I didn't like it.": "我刚刚说我不喜欢。",
+    "I see you.": "看见了。",
+    "I'm sorry.": "对不起。"
+  },
+  "06-05": {
+    "Will you write this part down too?": "今天这段，你也会写进去？",
+    "You don't want me to?": "你不想让我写？",
+    "I'm afraid tomorrow you'll only read the part where I messed up. And won't want to see me.": "我怕你明天只看到我说错话的这段，就不愿意见我了。",
+    "If you only let me keep the best few minutes, the person I meet tomorrow won't be you.": "可你让我只留下最好的那几分钟，我明天认识的就不是你了。"
+  },
+  "06-06": {
+    "You're right. I was still trying to write myself a good review.": "是。我刚才还在想怎么给自己写一份好评。",
+    "Write it. What happens next is yours to decide.": "写吧。后面怎么写，你定。",
+    "You're right.": "是。",
+    "I was still trying to write myself a good review.": "我刚才还在想怎么给自己写一份好评。",
+    "Write it.": "写吧。",
+    "What happens next is yours to decide.": "后面怎么写，你定。"
+  },
+  "06-G1": {
+    "I want something quieter. Got anything?": "我现在想听安静一点的。你有吗？",
+    "I'll learn again. No special treatment for yesterday's me.": "我重新学。别给昨天的我开后门。",
+    "You've already had two retakes today.": "你今天已经补考两次了。",
+    "Yeah. Taking actual notes this time.": "嗯。这回真会记笔记。",
+    "I want something quieter.": "我现在想听安静一点的。",
+    "Got anything?": "你有吗？",
+    "I'll learn again.": "我重新学。",
+    "No special treatment for yesterday's me.": "别给昨天的我开后门。",
+    "Yeah.": "嗯。",
+    "Taking actual notes this time.": "这回真会记笔记。"
+  },
+  "06-G2": {
+    "We had a small fight. He picked yesterday's favorite song. I didn't like it. He understood, and we changed it. I want to see him tomorrow.": "今天吵了一小架。他拿昨天的喜好替我选歌，我不喜欢。他听懂了，我们换了歌。我愿意明天再见他。"
+  },
+  "06-H1": {
+    "I need some time alone. Come move the shelves tomorrow.": "我想自己待会儿。明天再来搬花架吧。",
+    "Okay. What time?": "好。几点？",
+    "After breakfast. Ten.": "早饭以后，十点。",
+    "I need some time alone.": "我想自己待会儿。",
+    "Come move the shelves tomorrow.": "明天再来搬花架吧。",
+    "Okay.": "好。",
+    "What time?": "几点？"
+  },
+  "06-H2": {
+    "We had a small fight. He picked yesterday's favorite song. I didn't like it. I asked him to leave, and he did. Tomorrow we'll keep getting ready to open.": "今天吵了一小架。他拿昨天的喜好替我选歌，我不喜欢。我让他先回去，他走了。我们约了明天继续准备开门。",
+    "We had a small fight.": "我们闹了点不愉快。",
+    "He picked yesterday's favorite song.": "他选了昨天我最喜欢的歌。",
+    "I didn't like it.": "可我今天不喜欢。",
+    "I asked him to leave, and he did.": "我请他离开，他就走了。",
+    "Tomorrow we'll keep getting ready to open.": "明天，我们继续准备开业。"
+  },
+  "07-02": {
+    "You kept it alive.": "你居然养活了。",
+    "Can I get a dog now?": "我现在可以领狗了吗？",
+    "Get this one through probation first.": "先把这一盆的试用期过完。",
+    "There's a record this time. You win.": "这次有记录，算你赢。"
+  },
+  "07-02-mint": {
+    "You kept it alive.": "你居然养活了。",
+    "When does the tea department become permanent?": "下午茶部门什么时候转正？",
+    "Get this one through probation first.": "先把这一盆的试用期过完。",
+    "There's a record this time. You win.": "这次有记录，算你赢。"
+  },
+  "07-02-cactus": {
+    "You kept it alive.": "你居然养活了。",
+    "Can your confidence in me have fewer spikes now?": "我的信任额度可以少一点刺了吗？",
+    "Get this one through probation first.": "先把这一盆的试用期过完。",
+    "There's a record this time. You win.": "这次有记录，算你赢。"
+  },
+  "07-03": {
+    "Is this one reserved?": "这一盆已经有人预订了吗？",
+    "Let me check. Yes, here's the order. I can show you another.": "我查一下。对，这里有订单。我给您看看另一盆。",
+    "Let me check.": "我查一下。",
+    "Yes, here's the order.": "对，这里有订单。",
+    "I can show you another.": "我给您看看另一盆。"
+  },
+  "07-05": {
+    "The notebook didn't mention opening a shop would be this exhausting.": "本子上没有写，开门会这么累。",
+    "Bad news. No returns on the register either.": "坏消息，收银台也不能退货。",
+    "Your bonus.": "你的奖金。"
+  },
+  "07-A1": {
+    "Do I look bonus-worthy now?": "现在像不像值得发奖金的人？",
+    "Like you just conned your way into cake.": "像刚刚骗到蛋糕。",
+    "Any chance I can get a dance too?": "还有机会骗到一支舞吗？"
+  },
+  "07-B1": {
+    "Special treatment?": "这个算特别待遇？",
+    "You did well today.": "你今天表现不错。",
+    "Then I'd like to request more specific praise.": "那我申请把表扬说得更具体一点。"
+  },
+  "07-C1": {
+    "I like this seat.": "这儿的位置我喜欢。",
+    "Don't put it on tomorrow's schedule.": "别急着写进明天的安排。",
+    "Today's. I know.": "今天的。我知道。",
+    "Today's.": "今天的。",
+    "I know.": "我知道。"
+  },
+  "07-D1": {
+    "Why so quiet?": "怎么不说话了？",
+    "Trying to look like I've done this before.": "在努力显得见过世面。"
+  },
+  "07-07": {
+    "I'd like you to stay a little longer.": "我愿意和你再待一会儿。",
+    "I read about the days you came. And the days I asked you to leave.": "我读过你每天来的记录，也读过我让你走的那几天。",
+    "Yeah.": "嗯。",
+    "When I sold my first plant today, you looked happier than I did.": "今天我卖出第一盆花的时候，你看起来比我还高兴。",
+    "I really wanted to run over and hug you. Then I saw you counting money. Cash flow comes first.": "我特别想冲过来抱你。后来发现你正在数钱，应该优先保护现金流。"
+  },
+  "07-08": {
+    "I'm done counting.": "现在数完了。",
+    "And Rowan. I really do like you today.": "还有，洛温。我今天是真的喜欢你。",
+    "I like you too. Wanted to say it all day.": "我也喜欢你。想跟你说一整天了。",
+    "Right now, I want to hold you. And kiss you.": "那现在，我想抱你。还想吻你。",
+    "And Rowan.": "还有，洛温。",
+    "I really do like you today.": "我今天是真的喜欢你。",
+    "I like you too.": "我也喜欢你。",
+    "Wanted to say it all day.": "想跟你说一整天了。",
+    "Right now, I want to hold you.": "那现在，我想抱你。",
+    "And kiss you.": "还想吻你。"
+  },
+  "07-E1": {
+    "Come here.": "来吧。"
+  },
+  "07-E2": {
+    "I had something very clever ready.": "我本来准备了句很聪明的话。",
+    "And now?": "现在呢？",
+    "Department temporarily closed.": "部门暂停营业。"
+  },
+  "07-F1": {
+    "Remember that clever line yet?": "那句聪明话，想起来了吗？",
+    "No. And you didn't exactly seem to be waiting.": "没有。而且你刚才好像也没在等。",
+    "No.": "没有。",
+    "And you didn't exactly seem to be waiting.": "而且你刚才好像也没在等。"
+  },
+  "07-G1": {
+    "This is pretty good too.": "这里也挺好。",
+    "Comfortable?": "抱得舒服吗？"
+  },
+  "07-G2": {
+    "Very.": "很舒服。"
+  },
+  "07-G3": {
+    "A little hot.": "有一点热。",
+    "Understood. Cooling down.": "明白，我降温一下。"
+  },
+  "07-H1": {
+    "Give me a second to breathe.": "你先让我缓口气。",
+    "Yes, ma'am. Cake's still here. We haven't lost all reason.": "遵命。蛋糕还在，我们没有损失全部理智。"
+  },
+  "07-J1": {
+    "A hug first.": "先抱一下。",
+    "Better bonus than cake.": "这个奖金比蛋糕好。",
+    "Not how you looked at that strawberry.": "你刚才可不是这么看那颗草莓的。",
+    "Please allow the employee to improve his benefits.": "请允许员工改善待遇。"
+  },
+  "07-K1": {
+    "Can this be enough today?": "今天先这样，好吗？",
+    "More than enough.": "很好。",
+    "You look like you have other ideas.": "你看着还有点别的想法。",
+    "I do. I'll save them. They're not your to-do list.": "有。先存着。不是你的待办。",
+    "I do.": "有。",
+    "I'll save them.": "先存着。",
+    "They're not your to-do list.": "不是你的待办。"
+  },
+  "07-L1": {
+    "Adding your own scenes?": "你是不是给自己加戏？",
+    "Yes. Holding you made me want to tease you more.": "是。刚才抱完，更想逗你了。",
+    "Yes.": "是。",
+    "Holding you made me want to tease you more.": "刚才抱完，更想逗你了。"
+  },
+  "07-M1": {
+    "Your work. Your responsibility.": "你做的，你负责。",
+    "Don't move. I'm not finished.": "别动，还没弄好。",
+    "Look good?": "好看吗？",
+    "You do.": "好看。",
+    "Then you're booked for next time.": "那下次还找你。"
+  },
+  "07-N1": {
+    "Don't talk for a minute.": "先别说话。"
+  },
+  "07-P1": {
+    "Come a little closer.": "再靠近一点。",
+    "What are you smiling at?": "笑什么？",
+    "You were giving orders a minute ago. Why so quiet now?": "刚才还很会指挥我，现在怎么不说话了？",
+    "Keep teasing. I bite.": "再逗我，我会咬人。",
+    "Okay. Gently.": "好，轻一点。"
+  },
+  "07-P3": {
+    "Still laughing at me?": "还笑我吗？",
+    "Wouldn't dare now.": "现在不敢了。",
+    "You're still smiling.": "你还在笑。",
+    "That doesn't count. Couldn't help it.": "这个不算。没忍住。",
+    "That doesn't count.": "这个不算。",
+    "Couldn't help it.": "没忍住。"
+  },
+  "07-P4": {
+    "Go write. Put down the part where I surrendered too.": "好，去写吧。刚才认输那句，也替我记上。",
+    "Depends how you behave.": "看表现。",
+    "Formally requesting a fair record.": "本人申请一份公正记录。",
+    "Go write.": "好，去写吧。",
+    "Put down the part where I surrendered too.": "刚才认输那句，也替我记上。"
+  },
+  "07-10": {
+    "Can't leave my coworker at the register. See you tomorrow.": "不能把我的“同事”忘在收银台。明天见。",
+    "Can't leave my coworker at the register.": "不能把我的“同事”忘在收银台。",
+    "See you tomorrow.": "明天见。"
+  },
+  "07-12": {
+    "Today, the greenhouse reopened. I checked my own orders. I got them right. Rowan helped put away the last box.": "今天，温室重新开门了。我查了自己的订单，没有弄错。洛温陪我收了最后一个箱子。",
+    "Tomorrow, if he still feels unfamiliar, that's okay. Finish your own page first.": "明天，如果你还不熟悉他，不用着急。先把自己这一页读完。",
+    "I don't want this to be only him making the effort, every day. I want to give him something to look forward to too.": "我希望这不只是他每天努力来见我。我也想给他一点盼头。",
+    "Tomorrow, if he still feels unfamiliar, that's okay.": "明天，如果你还不熟悉他，不用着急。",
+    "Finish your own page first.": "先把自己这一页读完。",
+    "I don't want this to be only him making the effort, every day.": "我希望这不只是他每天努力来见我。",
+    "I want to give him something to look forward to too.": "我也想给他一点盼头。"
+  },
+  "08-02": {
+    "We opened yesterday. You were nervous for hours. You made that first sale anyway. Orders are in the back. Check them.": "昨天开门营业了。你紧张了半天，第一单还是做成了。订单都在后面，记得核对。",
+    "Rowan's coming tomorrow. I invited him. Don't spend all morning checking whether you like him. Ask what you want to do today too.": "洛温说明天来。是我约的。别光忙着检查你喜不喜欢他，今天也看看自己想干什么。"
+  },
+  "08-A1": {
+    "I pulled him back for the second kiss… Did I have to write that much detail?": "第二次是我拉他回来的……这句就不能少写一点吗。"
+  },
+  "08-A1-hug": {
+    "After the kiss, I didn't want to let go. Yesterday must have been good.": "后来我不想放开。昨天一定过得挺好。",
+    "After the kiss, I didn't want to let go.": "后来我不想放开。",
+    "Yesterday must have been good.": "昨天一定过得挺好。"
+  },
+  "08-A1-hot": {
+    "I said I was warm, and he let go. Apparently he called that cooling down.": "我说热，他就松开了。他好像还把这叫“降温”。",
+    "I said I was warm, and he let go.": "我说热，他就松开了。",
+    "Apparently he called that cooling down.": "他好像还把这叫“降温”。"
+  },
+  "08-A1-pause": {
+    "He let me catch my breath. Still thinking about cake. This guy…": "他说让我缓一会儿。还惦记蛋糕。这个人……",
+    "He let me catch my breath.": "他说让我缓一会儿。",
+    "Still thinking about cake.": "还惦记蛋糕。",
+    "This guy…": "这个人……"
+  },
+  "08-A1-hugonly": {
+    "I asked him to hold me first. I need to meet this man.": "我先让他抱的。得见见这个人。",
+    "I asked him to hold me first.": "我先让他抱的。",
+    "I need to meet this man.": "得见见这个人。"
+  },
+  "08-A1-handonly": {
+    "He didn't rush me. I want to know what he'll say today.": "他没有催我。我想知道他今天会说什么。",
+    "He didn't rush me.": "他没有催我。",
+    "I want to know what he'll say today.": "我想知道他今天会说什么。"
+  },
+  "08-A2": {
+    "Later, he kissed the back of my hand too.": "后来他还吻了我的手背。"
+  },
+  "08-A2-hair": {
+    "I messed up his hair, then fixed it for him.": "我弄乱他的头发又替他理好了。"
+  },
+  "08-A2-shoulder": {
+    "We sat together, my head on his shoulder.": "我们靠着坐了一会儿。"
+  },
+  "08-A2-bite": {
+    "I asked him to hold me closer. He teased me again. I gently bit his neck, and he laughed and surrendered. I laughed too.": "我让他抱近一点，他又逗我。我轻轻咬了他的颈侧一下。他笑着认输，我也笑了。",
+    "I even wrote down his surrender… Yesterday's me was very pleased with herself.": "连他认输都要记下来……昨天的我还挺得意。"
+  },
+  "08-03": {
+    "I haven't stayed in the day of the accident. My life kept happening.": "我并没有停留在事故那一天。我的生活还在继续。",
+    "I haven't stayed in the day of the accident.": "我并没有停留在事故那一天。",
+    "My life kept happening.": "我的生活还在继续。"
+  },
+  "08-04": {
+    "Read your few lines?": "那几行，看过了吗？",
+    "I have.": "看过了。",
+    "Morning. I'm Rowan.": "早。我是洛温。",
+    "I've read your file.": "你的资料我看过了。",
+    "Which version? Hopefully not the drawing.": "哪一版？我希望没提到画画。",
+    "It's in there. Terrible reviews.": "提到了。很多差评。",
+    "Fair.": "公平。",
+    "Morning.": "早。",
+    "I'm Rowan.": "我是洛温。",
+    "Which version?": "哪一版？",
+    "Hopefully not the drawing.": "我希望没提到画画。",
+    "It's in there.": "提到了。",
+    "Terrible reviews.": "很多差评。"
+  },
+  "08-D1": {
+    "Yesterday's me invited you. Today's me is keeping the promise.": "昨天的我请你，今天的我负责兑现。",
+    "You asked how I take it.": "你问过我喝什么。",
+    "I saw. Americano, right?": "我看到了。美式，对吧？",
+    "Right.": "对。",
+    "I saw.": "我看到了。",
+    "Americano, right?": "美式，对吧？"
+  },
+  "08-D2": {
+    "What's wrong? Is it that bad?": "怎么了？很难喝？",
+    "No. Every day I come here, I think about how to start with you.": "不是。我每天过来，都在想怎么跟你开头。",
+    "Today, you started.": "今天你先开了。",
+    "My turn, then. Hi. I'm Maisie.": "那今天换我。你好，我叫麦溪。",
+    "Rowan. Very happy to meet you.": "洛温。很高兴认识你。",
+    "I know. Still needs work, that introduction.": "我知道。介绍还得练练。",
+    "What's wrong?": "怎么了？",
+    "Is it that bad?": "很难喝？",
+    "No.": "不是。",
+    "Every day I come here, I think about how to start with you.": "我每天过来，都在想怎么跟你开头。",
+    "Rowan.": "洛温。",
+    "Very happy to meet you.": "很高兴认识你。",
+    "I know.": "我知道。",
+    "Still needs work, that introduction.": "介绍还得练练。"
+  },
+  "08-E2": {
+    "Not an employee this time?": "这次不是员工了？",
+    "A customer. The first.": "顾客。第一位。",
+    "You saved this yesterday?": "你昨天留的？",
+    "Yes. Checked it again today. Still a good choice.": "嗯。今天我看了一遍，觉得选得不错。",
+    "A customer.": "顾客。",
+    "The first.": "第一位。"
+  },
+  "08-E3": {
+    "You're so quiet. It's a little alarming.": "你突然这么安静，有点吓人。",
+    "I didn't expect you to have a place ready for me, before I even got here.": "我就是没想到，我来之前，你已经给我留好了位置。",
+    "Want a receipt?": "收据要吗？",
+    "Yes. Proof I get five-star treatment too.": "要。证明我也有五星待遇。",
+    "Yes.": "要。",
+    "Proof I get five-star treatment too.": "证明我也有五星待遇。"
+  },
+  "08-05": {
+    "Need a hand today?": "今天需要帮忙吗？"
+  },
+  "08-06": {
+    "Do we get an exemption now?": "我们现在有豁免权了吗？",
+    "The flowers do. You? Depends how you behave.": "花有。你看表现。"
+  }
+}
