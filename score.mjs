@@ -14,7 +14,7 @@ export function themeFor(id){
 export class DramaScore{
   constructor(){
     this.context=null;this.buffers=new Map();this.current=null;this.voices=new Set();
-    this.pending=new Map();this.delay=4000;this.token=0;this.ducked=true;this.waiting=false;this.resync=false;this.stopped=true;
+    this.pending=new Map();this.gate=()=>Promise.resolve();this.token=0;this.ducked=true;this.waiting=false;this.resync=false;this.stopped=true;
   }
   unlock(){
     // Called directly inside the normal start/play gesture, before any fetch/await.
@@ -24,8 +24,8 @@ export class DramaScore{
   buffer(name){
     if(this.buffers.has(name))return Promise.resolve(this.buffers.get(name));
     if(!this.pending.has(name)){
-      // Let the video claim the link first: music is fetched a few seconds after it is asked for.
-      const p=new Promise(r=>setTimeout(r,this.delay)).then(()=>fetch(`voices/music/${name}.mp3`)).then(r=>{if(!r.ok)throw Error('Music unavailable');return r.arrayBuffer();})
+      // Video has priority on slow links: the player's gate resolves once no video is downloading.
+      const p=this.gate().then(()=>fetch(`voices/music/${name}.mp3`)).then(r=>{if(!r.ok)throw Error('Music unavailable');return r.arrayBuffer();})
         .then(data=>this.context.decodeAudioData(data)).then(b=>{this.buffers.set(name,b);return b;})
         .catch(e=>{this.pending.delete(name);throw e;});this.pending.set(name,p);
     }

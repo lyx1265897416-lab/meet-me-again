@@ -41,7 +41,9 @@ function migrateEpisode5(progress){
  progress.ep5Edit=1;
 }
 migrateEpisode5(saved);for(const progress of Object.values(archives))migrateEpisode5(progress);
-const bgm=new DramaScore();const preloads=new Map();let zhLines={};
+const bgm=new DramaScore();
+// Music (~0.9 MB per theme) waits until no video element is still downloading, or 60 s at most.
+bgm.gate=()=>new Promise(done=>{const t0=Date.now(),iv=setInterval(()=>{const videos=[...document.querySelectorAll('video'),...preloads.values()];if(Date.now()-t0>60000||active.readyState>=3&&videos.every(v=>v.networkState!==2)){clearInterval(iv);done();}},500);});const preloads=new Map();let zhLines={};
 fetch('production/dialogue-zh.json').then(r=>r.ok?r.json():{}).then(x=>zhLines=x).catch(()=>{});
 const t=(a,b)=>zh?a:b;const fmt=n=>`${Math.floor(Math.max(0,n)/60)}:${String(Math.floor(Math.max(0,n)%60)).padStart(2,'0')}`;
 function selectPlantMedia(){if(!manifest)return;for(const shot of Object.values(manifest.shots)){if(!shot.baseClips){shot.baseClips=shot.clips;shot.baseIdle=shot.idle;}const media=mediaForState(shot,state);shot.clips=media.clips;shot.idle=media.idle;}}
