@@ -1,10 +1,10 @@
-import {shouldDissolve,createSceneDissolver} from './scene-dissolve.mjs?v=463df3ea7a';
-import {migrateEpisode5Timeline,migrateEpisode5Entrances} from './timeline-migration.mjs?v=463df3ea7a';
-import {recordPages} from './narrative-records.mjs?v=463df3ea7a';
-import {mediaForState} from './media-state.mjs?v=463df3ea7a';
-import {DramaScore} from './score.mjs?v=463df3ea7a';
-import {entryStateForEpisode,episodeHasMedia} from './episode-navigation.mjs?v=463df3ea7a';
-import {nodes,initialState,startId,nextOf,choicesOf,applyChoice,episodeTitles,intimacy} from './story.mjs?v=463df3ea7a';
+import {shouldDissolve,createSceneDissolver} from './scene-dissolve.mjs?v=b521e09fa1';
+import {migrateEpisode5Timeline,migrateEpisode5Entrances} from './timeline-migration.mjs?v=b521e09fa1';
+import {recordPages} from './narrative-records.mjs?v=b521e09fa1';
+import {mediaForState} from './media-state.mjs?v=b521e09fa1';
+import {DramaScore} from './score.mjs?v=b521e09fa1';
+import {entryStateForEpisode,episodeHasMedia} from './episode-navigation.mjs?v=b521e09fa1';
+import {nodes,initialState,startId,nextOf,choicesOf,applyChoice,episodeTitles,intimacy} from './story.mjs?v=b521e09fa1';
 const reviewEpisode=Number(new URLSearchParams(location.search).get('reviewEpisode'))||0;
 const reviewMode=Number.isInteger(reviewEpisode)&&reviewEpisode>=1&&reviewEpisode<=8;
 const $=s=>document.querySelector(s),systemZh=/^zh/i.test(navigator.language),key=reviewMode?'meet-me-again-review-'+reviewEpisode:'meet-me-again-video-v1';
@@ -42,8 +42,9 @@ function migrateEpisode5(progress){
 }
 migrateEpisode5(saved);for(const progress of Object.values(archives))migrateEpisode5(progress);
 const bgm=new DramaScore();
-// Music (~0.9 MB per theme) waits until no video element is still downloading, or 60 s at most.
-bgm.gate=()=>new Promise(done=>{const t0=Date.now(),iv=setInterval(()=>{const videos=[...document.querySelectorAll('video'),...preloads.values()];if(Date.now()-t0>60000||active.readyState>=3&&videos.every(v=>v.networkState!==2)){clearInterval(iv);done();}},500);});const preloads=new Map();let zhLines={};
+// Music (~0.9 MB per theme) waits until the playing clip and every preload are fully downloaded, or 60 s at most.
+const fullyBuffered=v=>v.readyState>=1&&v.buffered.length>0&&v.buffered.end(v.buffered.length-1)>=(v.duration||Infinity)-.5;
+bgm.gate=()=>new Promise(done=>{const t0=Date.now(),iv=setInterval(()=>{if(Date.now()-t0>60000||fullyBuffered(active)&&[...preloads.values()].every(fullyBuffered)){clearInterval(iv);done();}},500);});const preloads=new Map();let zhLines={};
 fetch('production/dialogue-zh.json').then(r=>r.ok?r.json():{}).then(x=>zhLines=x).catch(()=>{});
 const t=(a,b)=>zh?a:b;const fmt=n=>`${Math.floor(Math.max(0,n)/60)}:${String(Math.floor(Math.max(0,n)%60)).padStart(2,'0')}`;
 function selectPlantMedia(){if(!manifest)return;for(const shot of Object.values(manifest.shots)){if(!shot.baseClips){shot.baseClips=shot.clips;shot.baseIdle=shot.idle;}const media=mediaForState(shot,state);shot.clips=media.clips;shot.idle=media.idle;}}
@@ -58,12 +59,12 @@ function currentClip(){return manifest.shots[history[at]?.id]?.clips[part];}
 function relativeTime(){return choosing?currentClip()?.duration||0:Math.max(0,Math.min(currentClip()?.duration||0,active.currentTime-(currentClip()?.in||0)));}
 function watchFrames(){cancelAnimationFrame(frameLoop);const token=generation;const step=()=>{if(token!==generation||loadingMedia)return;tick();if(token===generation&&!loadingMedia)frameLoop=requestAnimationFrame(step);};frameLoop=requestAnimationFrame(step);}
 function elapsed(){return history.slice(0,at).reduce((a,h)=>a+shotDuration(h.id),0)+(manifest.shots[history[at]?.id]?.clips||[]).slice(0,part).reduce((a,c)=>a+c.duration,0)+relativeTime();}
-function preloadClip(c){if(!c||preloads.has(c.file)||active.currentSrc===new URL(c.file,location.href).href)return;const v=document.createElement('video');v.preload='auto';if(c.in>0)v.addEventListener('loadedmetadata',()=>{v.currentTime=c.in;},{once:true});v.src=c.file;v.load();preloads.set(c.file,v);while(preloads.size>4){const [k,v]=preloads.entries().next().value;v.removeAttribute('src');v.load();preloads.delete(k);}}
+function preloadClip(c){if(!c||preloads.has(c.file)||active.currentSrc===new URL(c.file,location.href).href)return;const v=document.createElement('video');v.preload='auto';if(c.in>0)v.addEventListener('loadedmetadata',()=>{v.currentTime=c.in;},{once:true});v.src=c.file;v.load();preloads.set(c.file,v);while(preloads.size>6){const [k,v]=preloads.entries().next().value;v.removeAttribute('src');v.load();preloads.delete(k);}}
 function preload(id){const cs=manifest.shots[id]?.clips;preloadClip(cs?.[0]);if(cs?.[0]?.transition)preloadClip(cs[1]);}
 // Slow links: the playing clip gets the bandwidth first. Only the next clip of this shot preloads at once;
 // the following shot / every branch waits until the playing clip is fully buffered.
 let preloadTimer=0;
-function preloadNext(){clearInterval(preloadTimer);const id=history[at].id,clips=manifest.shots[id]?.clips||[],nx=clips[part+1];if(nx){preloadClip(nx);if(nx.transition)preloadClip(clips[part+2]);return;}const v=active,run=()=>{clearInterval(preloadTimer);const cs=choicesOf(id,state);if(cs.length)cs.forEach(c=>preload(c.next));else{const n=nextOf(id,state);if(n)preload(n);}};preloadTimer=setInterval(()=>{if(v!==active||history[at]?.id!==id)return clearInterval(preloadTimer);const b=v.buffered;if(v.readyState>=3&&b.length&&b.end(b.length-1)>=(v.duration||0)-.3)run();},1000);}
+function preloadNext(){clearInterval(preloadTimer);const id=history[at].id,clips=manifest.shots[id]?.clips||[],nx=clips[part+1];if(nx){preloadClip(nx);if(nx.transition)preloadClip(clips[part+2]);return;}const idle=manifest.shots[id]?.idle;if(idle&&choicesOf(id,state).length)preloadClip({file:idle,in:0});const v=active,run=()=>{clearInterval(preloadTimer);const cs=choicesOf(id,state);if(cs.length)cs.forEach(c=>preload(c.next));else{const n=nextOf(id,state);if(n)preload(n);}};preloadTimer=setInterval(()=>{if(v!==active||history[at]?.id!==id)return clearInterval(preloadTimer);const b=v.buffered;if(v.readyState>=3&&b.length&&b.end(b.length-1)>=(v.duration||0)-.3)run();},1000);}
 async function load(id,index=0,time=0,autoplay=true){sceneDissolver.finish();const previousPicture=presentedClip;selectPlantMedia();failedLoad=null;
 // Consecutive narrative nodes may share one unbroken native take. Advance only
 // story bookkeeping at that boundary: no pause, seek, reload or video-element swap.
@@ -94,7 +95,9 @@ const idle=manifest.shots[history[at].id]?.idle;if(keepVideo){active.loop=true;a
  active.ontimeupdate=repeat;active.onended=repeat;
  if(active.currentTime>=tailEnd)active.currentTime=tailStart;
  await active.play();playing=true;
-}else if(idle){standby.pause();standby.src=idle;standby.loop=true;standby.muted=true;standby.onended=null;standby.ontimeupdate=null;standby.load();try{await standby.play();if(choiceToken!==generation||!choosing)return;active.pause();[active,standby]=[standby,active];active.hidden=false;standby.hidden=true;}catch{if(choiceToken===generation)playing=false;}}else{playing=false;active.pause();}$('#en').textContent='';$('#zh').textContent='';if(playing){bgm.duck(false,true);bgm.play(history[at].id,elapsed());}checkpoint();}
+}else if(idle){standby.pause();const warm=preloads.get(idle);if(warm){preloads.delete(idle);const old=standby;warm.id=old.id;warm.hidden=true;warm.playsInline=true;old.replaceWith(warm);standby=warm;old.removeAttribute('src');old.load();}else{standby.src=idle;standby.load();}standby.loop=true;standby.muted=true;standby.onended=null;standby.ontimeupdate=null;
+ // Hold the last frame until the loop can play through: a half-loaded loop freezes mid-motion on slow links.
+ try{if(standby.readyState<4)await new Promise(r=>{const d=setTimeout(r,15000);standby.addEventListener('canplaythrough',()=>{clearTimeout(d);r();},{once:true});});if(choiceToken!==generation||!choosing)return;await standby.play();if(choiceToken!==generation||!choosing)return;active.pause();[active,standby]=[standby,active];active.hidden=false;standby.hidden=true;}catch{if(choiceToken===generation)playing=false;}}else{playing=false;active.pause();}$('#en').textContent='';$('#zh').textContent='';if(playing){bgm.duck(false,true);bgm.play(history[at].id,elapsed());}checkpoint();}
 function refreshChoiceText(){if(!choosing||!history[at])return;const id=history[at].id,choice=nodes[id].choice,cs=choicesOf(id,state);$('#decision>p').textContent=t(choice.prompt,choice.en);const buttons=$('#options').querySelectorAll('button');cs.forEach((c,i)=>{if(buttons[i])buttons[i].textContent=t(c.label,c.en);});const spots=$('#spots').querySelectorAll('.spot');cs.filter(c=>c.spot).forEach((c,i)=>{if(spots[i]){spots[i].setAttribute('aria-label',t(c.label,c.en));spots[i].querySelector('.spot-label').textContent=t(c.spotLabel,c.spotEn);}});}
 function musicFor(id){if(playing){bgm.duck(!!currentClip()?.subtitles.some(c=>active.currentTime>=c.start&&active.currentTime<c.end));bgm.play(id,elapsed());}active.muted=false;}
 function tick(){if(choosing||loadingMedia)return;const id=history[at]?.id,c=manifest.shots[id]?.clips[part],cue=c?.subtitles.find(x=>active.currentTime>=x.start&&active.currentTime<x.end);$('#en').textContent=cue?.en||'';$('#zh').textContent=zh?(cue?.zh||zhLines[id]?.[cue?.en]||''):'';bgm.duck(!!cue?.en);const bridge=$('#sceneBridge');const back=!!c?.transition&&!!c?.label;bridge.hidden=!back;if(back)bridge.textContent=c.label;const p=projected(),now=elapsed();$('#time').textContent=`${fmt(now)} / ${p.estimated?'≈ ':''}${fmt(p.total)}`;if(!scrubbing)$('#seek').value=Math.min(1000,now/Math.max(1,p.total)*1000);if(c&&playing&&!advancing&&active.currentTime>=c.out-.03)ended();}
