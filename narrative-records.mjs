@@ -1,4 +1,4 @@
-import {intimacy} from './story.mjs?v=b521e09fa1';
+import {intimacy} from './story.mjs?v=7f1c48fb51';
 // Story facts are shared by evening entries and the next morning's readback.
 export const dates=Object.freeze({1:'May 16, 2024',2:'May 16, 2024',3:'May 16, 2024',4:'May 16, 2024',5:'May 17, 2024',6:'May 18, 2024',7:'May 20, 2024',8:'May 21, 2024'});
 export const p03Record=s=>({chest:'I rested my palm on his sweater. His heart was racing. We did not kiss.',nape:'I touched the hair at his nape. He laughed; it tickled. We did not kiss.',hug:'I drew him into a hug. He held me, then let go when I looked up. We did not kiss.'}[s.p03]||'');

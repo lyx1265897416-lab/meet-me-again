@@ -1,10 +1,10 @@
-import {shouldDissolve,createSceneDissolver} from './scene-dissolve.mjs?v=b521e09fa1';
-import {migrateEpisode5Timeline,migrateEpisode5Entrances} from './timeline-migration.mjs?v=b521e09fa1';
-import {recordPages} from './narrative-records.mjs?v=b521e09fa1';
-import {mediaForState} from './media-state.mjs?v=b521e09fa1';
-import {DramaScore} from './score.mjs?v=b521e09fa1';
-import {entryStateForEpisode,episodeHasMedia} from './episode-navigation.mjs?v=b521e09fa1';
-import {nodes,initialState,startId,nextOf,choicesOf,applyChoice,episodeTitles,intimacy} from './story.mjs?v=b521e09fa1';
+import {shouldDissolve,createSceneDissolver} from './scene-dissolve.mjs?v=7f1c48fb51';
+import {migrateEpisode5Timeline,migrateEpisode5Entrances} from './timeline-migration.mjs?v=7f1c48fb51';
+import {recordPages} from './narrative-records.mjs?v=7f1c48fb51';
+import {mediaForState} from './media-state.mjs?v=7f1c48fb51';
+import {DramaScore} from './score.mjs?v=7f1c48fb51';
+import {entryStateForEpisode,episodeHasMedia} from './episode-navigation.mjs?v=7f1c48fb51';
+import {nodes,initialState,startId,nextOf,choicesOf,applyChoice,episodeTitles,intimacy} from './story.mjs?v=7f1c48fb51';
 const reviewEpisode=Number(new URLSearchParams(location.search).get('reviewEpisode'))||0;
 const reviewMode=Number.isInteger(reviewEpisode)&&reviewEpisode>=1&&reviewEpisode<=8;
 const $=s=>document.querySelector(s),systemZh=/^zh/i.test(navigator.language),key=reviewMode?'meet-me-again-review-'+reviewEpisode:'meet-me-again-video-v1';
@@ -44,7 +44,7 @@ migrateEpisode5(saved);for(const progress of Object.values(archives))migrateEpis
 const bgm=new DramaScore();
 // Music (~0.9 MB per theme) waits until the playing clip and every preload are fully downloaded, or 60 s at most.
 const fullyBuffered=v=>v.readyState>=1&&v.buffered.length>0&&v.buffered.end(v.buffered.length-1)>=(v.duration||Infinity)-.5;
-bgm.gate=()=>new Promise(done=>{const t0=Date.now(),iv=setInterval(()=>{if(Date.now()-t0>60000||fullyBuffered(active)&&[...preloads.values()].every(fullyBuffered)){clearInterval(iv);done();}},500);});const preloads=new Map();let zhLines={};
+bgm.gate=()=>new Promise(done=>{let calm=0;const t0=Date.now(),iv=setInterval(()=>{calm=fullyBuffered(active)&&[...preloads.values()].every(fullyBuffered)?calm+1:0;if(Date.now()-t0>60000||calm>=4){clearInterval(iv);done();}},500);});  // calm for 2 s: the next preload is queued within 1 s of a clip startconst preloads=new Map();let zhLines={};
 fetch('production/dialogue-zh.json').then(r=>r.ok?r.json():{}).then(x=>zhLines=x).catch(()=>{});
 const t=(a,b)=>zh?a:b;const fmt=n=>`${Math.floor(Math.max(0,n)/60)}:${String(Math.floor(Math.max(0,n)%60)).padStart(2,'0')}`;
 function selectPlantMedia(){if(!manifest)return;for(const shot of Object.values(manifest.shots)){if(!shot.baseClips){shot.baseClips=shot.clips;shot.baseIdle=shot.idle;}const media=mediaForState(shot,state);shot.clips=media.clips;shot.idle=media.idle;}}
