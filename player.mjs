@@ -1,10 +1,10 @@
-import {shouldDissolve,createSceneDissolver} from './scene-dissolve.mjs';
-import {migrateEpisode5Timeline,migrateEpisode5Entrances} from './timeline-migration.mjs';
-import {recordPages} from './narrative-records.mjs';
-import {mediaForState} from './media-state.mjs';
-import {DramaScore} from './score.mjs';
-import {entryStateForEpisode,episodeHasMedia} from './episode-navigation.mjs';
-import {nodes,initialState,startId,nextOf,choicesOf,applyChoice,episodeTitles,intimacy} from './story.mjs';
+import {shouldDissolve,createSceneDissolver} from './scene-dissolve.mjs?v=463df3ea7a';
+import {migrateEpisode5Timeline,migrateEpisode5Entrances} from './timeline-migration.mjs?v=463df3ea7a';
+import {recordPages} from './narrative-records.mjs?v=463df3ea7a';
+import {mediaForState} from './media-state.mjs?v=463df3ea7a';
+import {DramaScore} from './score.mjs?v=463df3ea7a';
+import {entryStateForEpisode,episodeHasMedia} from './episode-navigation.mjs?v=463df3ea7a';
+import {nodes,initialState,startId,nextOf,choicesOf,applyChoice,episodeTitles,intimacy} from './story.mjs?v=463df3ea7a';
 const reviewEpisode=Number(new URLSearchParams(location.search).get('reviewEpisode'))||0;
 const reviewMode=Number.isInteger(reviewEpisode)&&reviewEpisode>=1&&reviewEpisode<=8;
 const $=s=>document.querySelector(s),systemZh=/^zh/i.test(navigator.language),key=reviewMode?'meet-me-again-review-'+reviewEpisode:'meet-me-again-video-v1';
